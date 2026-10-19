@@ -1,1 +1,32 @@
+## 1. Project Description
 
+This project is developed using C++ and AVL Tree to manage products and search products within a specified price range. Product prices are used as keys in the AVL Tree to retrieve products in ascending order of price.
+
+## 2. Working
+
+1. Add products with their names and prices.
+2. Store products in an AVL Tree.
+3. Maintain tree balance using rotations.
+4. Display products in sorted order using inorder traversal.
+5. Search and display products within the given minimum and maximum prices.
+
+## 3. Applications
+
+* Online shopping websites.
+* Product and inventory management.
+* Price-based product filtering.
+* Retail management systems.
+
+## 4. Advantages
+
+* Efficient product searching.
+* Displays products in sorted order.
+* Maintains a balanced tree.
+* Supports efficient product insertion.
+
+## 5. Disadvantages
+
+* AVL Tree implementation is complex.
+* Requires extra memory for tree nodes.
+* Basic implementation does not permanently store data.
+* Duplicate product prices require special handling.
