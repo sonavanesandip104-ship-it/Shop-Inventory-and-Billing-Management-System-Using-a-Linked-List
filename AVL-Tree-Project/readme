@@ -1,32 +1,79 @@
-## 1. Project Description
+# Online Shopping Application Using AVL Tree
 
-This project is developed using C++ and AVL Tree to manage products and search products within a specified price range. Product prices are used as keys in the AVL Tree to retrieve products in ascending order of price.
+## 1. Introduction
 
-## 2. Working
+The Online Shopping Application Using AVL Tree is a C++-based project designed to manage products and search for products within a specified price range. It uses an AVL Tree, which is a self-balancing Binary Search Tree, to organize products according to their prices. This helps retrieve products efficiently and display them in ascending order of price.
 
-1. Add products with their names and prices.
-2. Store products in an AVL Tree.
-3. Maintain tree balance using rotations.
-4. Display products in sorted order using inorder traversal.
-5. Search and display products within the given minimum and maximum prices.
+## 2. Objectives
 
-## 3. Applications
+* To develop a basic online shopping application using C++.
+* To store product details using an AVL Tree.
+* To search for products within a specified price range.
+* To display products in ascending order of price.
+* To understand the practical application of Data Structures and Algorithms.
 
-* Online shopping websites.
-* Product and inventory management.
-* Price-based product filtering.
+## 3. Working of the Project
+
+1. The application displays a menu with options to add products, display products, search by price range, and exit.
+2. The user enters the product name and price.
+3. The product is inserted into the AVL Tree according to its price.
+4. The AVL Tree maintains balance using rotations when necessary.
+5. Inorder traversal displays all products in ascending order of price.
+6. The user enters the minimum and maximum prices to search for products within the specified range.
+7. The application displays matching products in sorted order.
+
+## 4. Applications
+
+* Online shopping platforms.
+* Product catalogue management.
 * Retail management systems.
+* Inventory management systems.
+* Price-based product filtering.
+* Budget-based product searching.
 
-## 4. Advantages
+## 5. Advantages
 
-* Efficient product searching.
-* Displays products in sorted order.
-* Maintains a balanced tree.
-* Supports efficient product insertion.
+* Efficient product insertion and searching.
+* Displays products in ascending order of price.
+* Maintains balance through AVL rotations.
+* Retrieves products within a specified price range.
+* Avoids unnecessary traversal of unrelated subtrees during range searching.
+* Demonstrates the practical use of DSA concepts.
 
-## 5. Disadvantages
+## 6. Disadvantages
 
-* AVL Tree implementation is complex.
-* Requires extra memory for tree nodes.
-* Basic implementation does not permanently store data.
+* AVL Tree implementation is more complex than a simple array or list.
+* Each node requires additional memory for pointers and height information.
+* Product data is not permanently stored in the basic implementation.
 * Duplicate product prices require special handling.
+* The basic console application does not include online payment, customer login, or order tracking.
+
+## 7. Technologies Used
+
+* **Programming Language:** C++
+* **Data Structure:** AVL Tree
+* **Concepts:** Binary Search Tree, Recursion, Pointers, Tree Rotations, Inorder Traversal
+* **Application Type:** Menu-driven console application
+
+## 8. Time Complexity
+
+* **Insertion:** O(log n)
+* **Searching a Specific Key:** O(log n)
+* **Displaying All Products:** O(n)
+* **Price Range Search:** Typically O(log n + k), where k is the number of matching products; worst case O(n).
+* **Space Complexity:** O(n)
+
+Here, n represents the number of stored keys.
+
+## 9. Future Scope
+
+* Add database connectivity to store products permanently.
+* Develop a graphical user interface.
+* Add product categories and descriptions.
+* Support multiple products with the same price.
+* Implement product update and deletion operations.
+* Add customer login and shopping cart functionality.
+
+## 10. Conclusion
+
+The Online Shopping Application Using AVL Tree demonstrates how a self-balancing Binary Search Tree can efficiently organize product information and retrieve products within a specified price range. It uses AVL rotations to maintain balance and inorder traversal to display products in ascending order. This project provides practical knowledge of Data Structures and Algorithms and can be extended into a more advanced shopping application.
